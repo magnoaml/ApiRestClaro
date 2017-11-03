@@ -76,6 +76,7 @@ public class ServiceController {
 		List<CelularEntity> listaEntityCelular = repository.todosCelulares();
  
 		for (CelularEntity entity : listaEntityCelular) {
+			
  
 			celular.add(new Celular(entity.getPrice(), entity.getCode(),
 					entity.getModel(), entity.getBrand(),entity.getPhoto(),
