@@ -1,0 +1,4 @@
+br\com\claroapi\controller\ServiceController.class
+br\com\claroapi\repository\CelularRepository.class
+br\com\claroapi\http\Celular.class
+br\com\claroapi\repository\entity\CelularEntity.class
